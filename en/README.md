@@ -13,6 +13,7 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
 <p align="center"><i><b>
   <a href="https://twitter.com/kruiser8">@Kruiser8</a> |
   <a href="https://trello.com/b/oIV3q6Im/kruiz-control">Trello (Roadmap)</a> |
+  <a href="https://patreon.com/kruiser8">Patreon</a> |
   <a href="https://discord.gg/wU3ZK3Q">Support Discord</a>
 </b></i></p>
 
@@ -41,7 +42,7 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
 
 ## Setup Guide
 
-- (If using OBS) Install the [OBS Websocket Plugin](https://github.com/Palakis/obs-websocket/releases).
+- (If using OBS) Install the [OBS Websocket Plugin](https://github.com/Palakis/obs-websocket/releases). Reopen OBS after installing.
 - Fill out [the settings files](https://github.com/Kruiser8/Kruiz-Control/blob/master/settings/Settings.md) in the settings folder.
 - Add the **index.html** to OBS/SLOBS as a browser source.
 - Type `!example` in your twitch chat. If your user responds with `Success! It worked!`, you're good to go!
@@ -73,7 +74,7 @@ OBS.Live should also be supported but is untested.
 ## Installation
 
 ### OBS Websocket (if using OBS)
-To use this script with OBS, install the [obs-websocket](https://github.com/Palakis/obs-websocket/releases) plugin.
+To use this script with OBS, install the [obs-websocket](https://github.com/Palakis/obs-websocket/releases) plugin. Reopen OBS after installing.
 
 In OBS, click **Tools** > **WebSockets Server Settings** and enable the websocket server.
 
@@ -128,7 +129,7 @@ OnSLDonation
 OBS Scene DonationCelebration
 Delay 4
 
-OnCommand m !brb
+OnCommand mb 0 !brb
 OBS Scene BRB
 Delay 5
 ```
