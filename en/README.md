@@ -17,6 +17,11 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
   <a href="https://discord.gg/wU3ZK3Q">Support Discord</a>
 </b></i></p>
 
+***
+
+<h3 align="center"><a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator/releases">Kruiz Control Configurator</a></h3>
+<p align="center"><a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator/releases">Kruiz Control Configurator</a> is a simple frontend for Kruiz Control made by <a href="https://github.com/CrashKoeck">CrashKoeck</a> which allows easy configuration of the settings files. Download the executable and add it into your Kruiz Control folder in order to manage your settings.</p>
+
 ## Table of Contents
 
 - [Setup Guide](#setup-guide)
@@ -32,10 +37,11 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
   + [sounds folder](#sounds-folder)
 - [FAQ](#faq)
   + [XSplit Support](#xsplit-support)
-  + [Support for Mixer and Youtube Alerts](#support-for-mixer-and-youtube-alerts)
-  + [Support for Mixer and Youtube Chat](#support-for-mixer-and-youtube-chat)
+  + [Support for Youtube Alerts](#support-for-youtube-alerts)
+  + [Support for Youtube Chat](#support-for-youtube-chat)
   + [Will you support X](#will-you-support-x)
 - [Support the Project](#support-the-project)
+- [Associated Projects](#associated-projects)
 - [Credits](#credits)
 
 ***
@@ -55,6 +61,7 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
 Kruiz Control supports
 - Twitch Channel Points
 - Twitch Chat
+- Twitch Hype Trains
 - Streamlabs Alerts
 - StreamElements Alerts
 - OBS scene, source, and filter changes
@@ -144,12 +151,12 @@ In order to use a sound with `Play`, add the sound file to the *sounds* folder. 
 ### XSplit Support
 The script should work with XSplit _BUT_ the OBS-like functionality will not work. XSplit does not provide a direct websocket interface to do such actions. It may be possible to implement a plugin that provides a websocket interface to connect with xsplit. If you know a way to achieve this, [please reach out](mailto:kruiser.twitch@gmail.com).
 
-### Support for Mixer and Youtube Alerts
-I can definitely add support for Mixer and Youtube alerts from Streamlabs. I just haven't had the time to implement it yet.
+### Support for Youtube Alerts
+I can definitely add support for Youtube alerts from Streamlabs. I just haven't had the time to implement it yet.
 
-More investigation time is needed to implement Youtube and Mixer StreamElements.
+More investigation time is needed to implement Youtube with StreamElements.
 
-### Support for Mixer and Youtube Chat
+### Support for Youtube Chat
 Potentially if I can find the libraries to implement it. Again, if you know a way to achieve this, please reach out via [twitter](https://twitter.com/kruiser8) or [discord](https://discord.gg/wU3ZK3Q).
 
 ### Will you support X
@@ -171,6 +178,14 @@ There are a number of ways to support this project.
 - Spread the word!
 
 I do take commissions to implement custom functionality when necessary. Please reach out if you have a specific request.
+
+***
+
+## Associated Projects
+
+- <a href="https://github.com/Kruiser8/Kruiz-Control-Documentation">Kruiz Control Documentation</a>.
+- <a href="https://github.com/Kruiser8/Kruiz-Control-Widget">Kruiz Control Widget Template</a>.
+- <a href="https://github.com/CrashKoeck/Kruiz-Control-Configurator">Kruiz Control Configurator</a> by <a href="https://github.com/CrashKoeck">CrashKoeck</a>.
 
 ***
 
