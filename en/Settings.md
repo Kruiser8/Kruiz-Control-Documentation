@@ -46,14 +46,14 @@ kruiser8
 ***
 
 ## OBS
-These settings can be found after installing the [OBS websocket plugin](https://github.com/Palakis/obs-websocket/releases) through **Tools** > **WebSockets Server Settings**.
+These settings can be found after installing the [OBS websocket plugin](https://github.com/Palakis/obs-websocket/releases/latest) (version 5.0.0 or above) through **Tools** > **WebSockets Server Settings**.
 
 ### address.txt
 **Location:** `settings/obs/address.txt`
 
 Specify the IP + port to use for the OBS websocket.
 ```
-localhost:4444
+ws://127.0.0.1:4455
 ```
 
 ***

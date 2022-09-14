@@ -48,7 +48,7 @@ Kruiz Control enables a pseudo code approach to manage and automatically handle 
 
 ## Setup Guide
 
-- (If using OBS) Install the [OBS Websocket Plugin](https://github.com/Palakis/obs-websocket/releases). Reopen OBS after installing.
+- (If using OBS) Install the [OBS Websocket Plugin](https://github.com/Palakis/obs-websocket/releases/latest) (version 5.0.0 or above). Reopen OBS after installing.
 - Fill out [the settings files](https://github.com/Kruiser8/Kruiz-Control/blob/master/settings/Settings.md) in the settings folder.
 - Add the **index.html** to OBS/SLOBS as a browser source.
 - Type `!example` in your twitch chat. If your user responds with `Success! It worked!`, you're good to go!
@@ -81,7 +81,7 @@ OBS.Live should also be supported but is untested.
 ## Installation
 
 ### OBS Websocket (if using OBS)
-To use this script with OBS, install the [obs-websocket](https://github.com/Palakis/obs-websocket/releases) plugin. Reopen OBS after installing.
+To use this script with OBS, install the [obs-websocket](https://github.com/Palakis/obs-websocket/releases/latest) plugin (version 5.0.0 or above). Reopen OBS after installing.
 
 In OBS, click **Tools** > **WebSockets Server Settings** and enable the websocket server.
 
@@ -194,3 +194,6 @@ I do take commissions to implement custom functionality when necessary. Please r
 - [comfyjs](https://github.com/instafluff/ComfyJS) by Instafluff (instafluff)
 - [node-shlex](https://github.com/rgov/node-shlex) by Ryan Govostes (rgov)
 - [obs-websocket-js](https://github.com/haganbmj/obs-websocket-js) by Brendan Hagan (haganbmj)
+
+## License
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><br />This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons Attribution-NonCommercial-NoDerivs 4.0 Generic License</a>.
